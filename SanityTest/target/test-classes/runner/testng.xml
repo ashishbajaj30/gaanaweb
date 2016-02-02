@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite" >
+  
+  <test name="Login Smoke Test" enabled="true">
+    <classes>
+      <class name="com.gaana.base.Page"/>
+      <class name="com.gaana.testcases.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Home Smoke Test" enabled="true">
+    <classes>
+    	<class name="com.gaana.base.Page"/>
+    	<class name="com.gaana.testcases.HomePageTest"/>
+    	
+    </classes>
+  </test> <!-- Test -->
+   <test name="Content Test" enabled="true">
+    <classes>
+      <class name="com.gaana.base.Page"/>
+      <class name="com.gaana.testcases.ContentTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

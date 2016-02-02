@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Smoke Suite]">
+  <test name="Home Smoke Test(failed)">
+    <classes>
+      <class name="com.gaana.testcases.ContentTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.gaana.testcases.ContentTest -->
+      <class name="com.gaana.base.Page">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.gaana.base.Page -->
+      <class name="com.gaana.testcases.HomePageTest">
+        <methods>
+          <include name="clickTopchart"/>
+        </methods>
+      </class> <!-- com.gaana.testcases.HomePageTest -->
+      <class name="com.gaana.testcases.LoginTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.gaana.testcases.LoginTest -->
+    </classes>
+  </test> <!-- Home Smoke Test(failed) -->
+</suite> <!-- Failed suite [Smoke Suite] -->

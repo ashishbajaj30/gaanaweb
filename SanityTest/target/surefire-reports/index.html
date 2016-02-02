@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Smoke_Suite">
+              <span class="suite-name border-passed">Smoke Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Smoke_Suite">
+                    <span>C:\Users\ashish.bajaj1\workspace\gaana_auto\SanityTest\src\test\resources\runner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Smoke_Suite">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Smoke_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Smoke_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Smoke_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Smoke_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Smoke_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Smoke_Suite" class="hide-methods passed suite-Smoke_Suite"> (hide)</a> <!-- hide-methods passed suite-Smoke_Suite -->
+                      <a href="#" panel-name="suite-Smoke_Suite" class="show-methods passed suite-Smoke_Suite"> (show)</a> <!-- show-methods passed suite-Smoke_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Smoke_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.gaana.testcases.ContentTest" hash-for-method="artistContent">artistContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.gaana.testcases.HomePageTest" hash-for-method="clickArtist">clickArtist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.gaana.testcases.HomePageTest" hash-for-method="clickLanguages">clickLanguages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.gaana.testcases.HomePageTest" hash-for-method="clickNewReleases">clickNewReleases</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.gaana.testcases.HomePageTest" hash-for-method="clickTopchart">clickTopchart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.gaana.testcases.ContentTest" hash-for-method="discoverContent">discoverContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.gaana.testcases.ContentTest" hash-for-method="discoverListContent">discoverListContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.gaana.testcases.ContentTest" hash-for-method="gaanaRadiolistContent">gaanaRadiolistContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.gaana.testcases.ContentTest" hash-for-method="homeFeaturedPlaylistContent">homeFeaturedPlaylistContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.gaana.testcases.LoginTest" hash-for-method="loginEmail">loginEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.gaana.testcases.LoginTest" hash-for-method="loginFacebook">loginFacebook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.gaana.testcases.LoginTest" hash-for-method="loginGoogle">loginGoogle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.gaana.testcases.ContentTest" hash-for-method="newReleaseContent">newReleaseContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.gaana.testcases.ContentTest" hash-for-method="newReleasesHomeContent">newReleasesHomeContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.gaana.testcases.ContentTest" hash-for-method="playListHourContent">playListHourContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.gaana.testcases.ContentTest" hash-for-method="radioMirchlistContent">radioMirchlistContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.gaana.testcases.ContentTest" hash-for-method="topchartContent">topchartContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Smoke_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Smoke_Suite" class="panel Smoke_Suite">
+          <div class="suite-Smoke_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gaana.testcases.ContentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="artistContent">
+                  </a> <!-- artistContent -->
+                  <span class="method-name">artistContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="discoverContent">
+                  </a> <!-- discoverContent -->
+                  <span class="method-name">discoverContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="discoverListContent">
+                  </a> <!-- discoverListContent -->
+                  <span class="method-name">discoverListContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="gaanaRadiolistContent">
+                  </a> <!-- gaanaRadiolistContent -->
+                  <span class="method-name">gaanaRadiolistContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homeFeaturedPlaylistContent">
+                  </a> <!-- homeFeaturedPlaylistContent -->
+                  <span class="method-name">homeFeaturedPlaylistContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newReleaseContent">
+                  </a> <!-- newReleaseContent -->
+                  <span class="method-name">newReleaseContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newReleasesHomeContent">
+                  </a> <!-- newReleasesHomeContent -->
+                  <span class="method-name">newReleasesHomeContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="playListHourContent">
+                  </a> <!-- playListHourContent -->
+                  <span class="method-name">playListHourContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="radioMirchlistContent">
+                  </a> <!-- radioMirchlistContent -->
+                  <span class="method-name">radioMirchlistContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="topchartContent">
+                  </a> <!-- topchartContent -->
+                  <span class="method-name">topchartContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke_Suite-class-passed -->
+          <div class="suite-Smoke_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gaana.testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginEmail">
+                  </a> <!-- loginEmail -->
+                  <span class="method-name">loginEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFacebook">
+                  </a> <!-- loginFacebook -->
+                  <span class="method-name">loginFacebook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginGoogle">
+                  </a> <!-- loginGoogle -->
+                  <span class="method-name">loginGoogle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke_Suite-class-passed -->
+          <div class="suite-Smoke_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gaana.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickArtist">
+                  </a> <!-- clickArtist -->
+                  <span class="method-name">clickArtist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickLanguages">
+                  </a> <!-- clickLanguages -->
+                  <span class="method-name">clickLanguages</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickNewReleases">
+                  </a> <!-- clickNewReleases -->
+                  <span class="method-name">clickNewReleases</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickTopchart">
+                  </a> <!-- clickTopchart -->
+                  <span class="method-name">clickTopchart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke_Suite-class-passed -->
+        </div> <!-- panel Smoke_Suite -->
+        <div panel-name="test-xml-Smoke_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ashish.bajaj1\workspace\gaana_auto\SanityTest\src\test\resources\runner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Smoke Suite&quot;&gt;
+  &lt;test name=&quot;Login Smoke Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.gaana.base.Page&quot;/&gt;
+      &lt;class name=&quot;com.gaana.testcases.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Smoke Test --&gt;
+  &lt;test name=&quot;Home Smoke Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.gaana.base.Page&quot;/&gt;
+      &lt;class name=&quot;com.gaana.testcases.HomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Home Smoke Test --&gt;
+  &lt;test name=&quot;Content Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.gaana.base.Page&quot;/&gt;
+      &lt;class name=&quot;com.gaana.testcases.ContentTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Content Test --&gt;
+&lt;/suite&gt; &lt;!-- Smoke Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Smoke_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Smoke Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Smoke Test (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Home Smoke Test (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Content Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Smoke_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Smoke Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Smoke_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Smoke Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Smoke_Suite');
+function tableData_Smoke_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginFacebook')
+data.setCell(0, 2, 'com.gaana.testcases.LoginTest')
+data.setCell(0, 3, 29410);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'clickLanguages')
+data.setCell(1, 2, 'com.gaana.testcases.HomePageTest')
+data.setCell(1, 3, 28153);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginGoogle')
+data.setCell(2, 2, 'com.gaana.testcases.LoginTest')
+data.setCell(2, 3, 23357);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginEmail')
+data.setCell(3, 2, 'com.gaana.testcases.LoginTest')
+data.setCell(3, 3, 16943);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'clickTopchart')
+data.setCell(4, 2, 'com.gaana.testcases.HomePageTest')
+data.setCell(4, 3, 7757);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'gaanaRadiolistContent')
+data.setCell(5, 2, 'com.gaana.testcases.ContentTest')
+data.setCell(5, 3, 5369);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'radioMirchlistContent')
+data.setCell(6, 2, 'com.gaana.testcases.ContentTest')
+data.setCell(6, 3, 4986);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'homeFeaturedPlaylistContent')
+data.setCell(7, 2, 'com.gaana.testcases.ContentTest')
+data.setCell(7, 3, 4845);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'discoverListContent')
+data.setCell(8, 2, 'com.gaana.testcases.ContentTest')
+data.setCell(8, 3, 4746);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'clickArtist')
+data.setCell(9, 2, 'com.gaana.testcases.HomePageTest')
+data.setCell(9, 3, 4674);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'playListHourContent')
+data.setCell(10, 2, 'com.gaana.testcases.ContentTest')
+data.setCell(10, 3, 4605);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'newReleasesHomeContent')
+data.setCell(11, 2, 'com.gaana.testcases.ContentTest')
+data.setCell(11, 3, 4577);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'topchartContent')
+data.setCell(12, 2, 'com.gaana.testcases.ContentTest')
+data.setCell(12, 3, 3957);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'artistContent')
+data.setCell(13, 2, 'com.gaana.testcases.ContentTest')
+data.setCell(13, 3, 3720);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'discoverContent')
+data.setCell(14, 2, 'com.gaana.testcases.ContentTest')
+data.setCell(14, 3, 3706);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'newReleaseContent')
+data.setCell(15, 2, 'com.gaana.testcases.ContentTest')
+data.setCell(15, 3, 3662);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'clickNewReleases')
+data.setCell(16, 2, 'com.gaana.testcases.HomePageTest')
+data.setCell(16, 3, 2865);
+window.suiteTableData['Smoke_Suite']= { tableData: data, tableDiv: 'times-div-Smoke_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Smoke_Suite">
+              </div> <!-- times-div-Smoke_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Smoke_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Smoke Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Smoke_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Smoke_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gaana.base.Page</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gaana.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">24600 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginEmail</span>
+                <span class="method-start">24615 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginFacebook</span>
+                <span class="method-start">41558 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginGoogle</span>
+                <span class="method-start">70969 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gaana.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickTopchart</span>
+                <span class="method-start">94429 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickArtist</span>
+                <span class="method-start">102191 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickLanguages</span>
+                <span class="method-start">106866 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickNewReleases</span>
+                <span class="method-start">135019 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gaana.testcases.ContentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">137938 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">topchartContent</span>
+                <span class="method-start">137939 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">newReleaseContent</span>
+                <span class="method-start">141898 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">artistContent</span>
+                <span class="method-start">145560 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">discoverContent</span>
+                <span class="method-start">149280 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">homeFeaturedPlaylistContent</span>
+                <span class="method-start">152987 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">radioMirchlistContent</span>
+                <span class="method-start">157832 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">gaanaRadiolistContent</span>
+                <span class="method-start">162818 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">discoverListContent</span>
+                <span class="method-start">168189 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">playListHourContent</span>
+                <span class="method-start">172935 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">newReleasesHomeContent</span>
+                <span class="method-start">177540 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gaana.base.Page</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">182184 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

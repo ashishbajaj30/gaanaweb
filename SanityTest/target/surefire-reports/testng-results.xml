@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke Suite" duration-ms="157535" started-at="2016-02-02T06:25:46Z" finished-at="2016-02-02T06:28:24Z">
+    <groups>
+    </groups>
+    <test name="Login Smoke Test" duration-ms="69748" started-at="2016-02-02T06:25:46Z" finished-at="2016-02-02T06:26:56Z">
+      <class name="com.gaana.testcases.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gaana.testcases.LoginTest@6b143ee9]" name="setup" is-config="true" duration-ms="1" started-at="2016-02-02T11:55:46Z" finished-at="2016-02-02T11:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginEmail()[pri:0, instance:com.gaana.testcases.LoginTest@6b143ee9]" name="loginEmail" duration-ms="16943" started-at="2016-02-02T11:55:46Z" finished-at="2016-02-02T11:56:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEmail -->
+        <test-method status="PASS" signature="loginFacebook()[pri:0, instance:com.gaana.testcases.LoginTest@6b143ee9]" name="loginFacebook" duration-ms="29410" started-at="2016-02-02T11:56:03Z" finished-at="2016-02-02T11:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFacebook -->
+        <test-method status="PASS" signature="loginGoogle()[pri:0, instance:com.gaana.testcases.LoginTest@6b143ee9]" name="loginGoogle" duration-ms="23357" started-at="2016-02-02T11:56:32Z" finished-at="2016-02-02T11:56:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginGoogle -->
+      </class> <!-- com.gaana.testcases.LoginTest -->
+    </test> <!-- Login Smoke Test -->
+    <test name="Home Smoke Test" duration-ms="43457" started-at="2016-02-02T06:26:56Z" finished-at="2016-02-02T06:27:39Z">
+      <class name="com.gaana.testcases.HomePageTest">
+        <test-method status="PASS" signature="clickTopchart()[pri:0, instance:com.gaana.testcases.HomePageTest@26f67b76]" name="clickTopchart" duration-ms="7757" started-at="2016-02-02T11:56:56Z" finished-at="2016-02-02T11:57:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickTopchart -->
+        <test-method status="PASS" signature="clickArtist()[pri:0, instance:com.gaana.testcases.HomePageTest@26f67b76]" name="clickArtist" duration-ms="4674" started-at="2016-02-02T11:57:04Z" finished-at="2016-02-02T11:57:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickArtist -->
+        <test-method status="PASS" signature="clickLanguages()[pri:0, instance:com.gaana.testcases.HomePageTest@26f67b76]" name="clickLanguages" duration-ms="28153" started-at="2016-02-02T11:57:08Z" finished-at="2016-02-02T11:57:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLanguages -->
+        <test-method status="PASS" signature="clickNewReleases()[pri:0, instance:com.gaana.testcases.HomePageTest@26f67b76]" name="clickNewReleases" duration-ms="2865" started-at="2016-02-02T11:57:37Z" finished-at="2016-02-02T11:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickNewReleases -->
+      </class> <!-- com.gaana.testcases.HomePageTest -->
+    </test> <!-- Home Smoke Test -->
+    <test name="Content Test" duration-ms="44180" started-at="2016-02-02T06:27:39Z" finished-at="2016-02-02T06:28:24Z">
+      <class name="com.gaana.testcases.ContentTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gaana.testcases.ContentTest@6276ae34]" name="setup" is-config="true" duration-ms="1" started-at="2016-02-02T11:57:39Z" finished-at="2016-02-02T11:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="topchartContent()[pri:0, instance:com.gaana.testcases.ContentTest@6276ae34]" name="topchartContent" duration-ms="3957" started-at="2016-02-02T11:57:39Z" finished-at="2016-02-02T11:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- topchartContent -->
+        <test-method status="PASS" signature="newReleaseContent()[pri:0, instance:com.gaana.testcases.ContentTest@6276ae34]" name="newReleaseContent" duration-ms="3662" started-at="2016-02-02T11:57:43Z" finished-at="2016-02-02T11:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newReleaseContent -->
+        <test-method status="PASS" signature="artistContent()[pri:0, instance:com.gaana.testcases.ContentTest@6276ae34]" name="artistContent" duration-ms="3720" started-at="2016-02-02T11:57:47Z" finished-at="2016-02-02T11:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- artistContent -->
+        <test-method status="PASS" signature="discoverContent()[pri:0, instance:com.gaana.testcases.ContentTest@6276ae34]" name="discoverContent" duration-ms="3706" started-at="2016-02-02T11:57:51Z" finished-at="2016-02-02T11:57:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- discoverContent -->
+        <test-method status="PASS" signature="homeFeaturedPlaylistContent()[pri:0, instance:com.gaana.testcases.ContentTest@6276ae34]" name="homeFeaturedPlaylistContent" duration-ms="4845" started-at="2016-02-02T11:57:55Z" finished-at="2016-02-02T11:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeFeaturedPlaylistContent -->
+        <test-method status="PASS" signature="radioMirchlistContent()[pri:0, instance:com.gaana.testcases.ContentTest@6276ae34]" name="radioMirchlistContent" duration-ms="4986" started-at="2016-02-02T11:57:59Z" finished-at="2016-02-02T11:58:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radioMirchlistContent -->
+        <test-method status="PASS" signature="gaanaRadiolistContent()[pri:0, instance:com.gaana.testcases.ContentTest@6276ae34]" name="gaanaRadiolistContent" duration-ms="5369" started-at="2016-02-02T11:58:04Z" finished-at="2016-02-02T11:58:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gaanaRadiolistContent -->
+        <test-method status="PASS" signature="discoverListContent()[pri:0, instance:com.gaana.testcases.ContentTest@6276ae34]" name="discoverListContent" duration-ms="4746" started-at="2016-02-02T11:58:10Z" finished-at="2016-02-02T11:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- discoverListContent -->
+        <test-method status="PASS" signature="playListHourContent()[pri:0, instance:com.gaana.testcases.ContentTest@6276ae34]" name="playListHourContent" duration-ms="4605" started-at="2016-02-02T11:58:14Z" finished-at="2016-02-02T11:58:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playListHourContent -->
+        <test-method status="PASS" signature="newReleasesHomeContent()[pri:0, instance:com.gaana.testcases.ContentTest@6276ae34]" name="newReleasesHomeContent" duration-ms="4577" started-at="2016-02-02T11:58:19Z" finished-at="2016-02-02T11:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newReleasesHomeContent -->
+      </class> <!-- com.gaana.testcases.ContentTest -->
+      <class name="com.gaana.base.Page">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gaana.base.Page@39fb3ab6]" name="setUp" is-config="true" duration-ms="24581" started-at="2016-02-02T11:55:22Z" finished-at="2016-02-02T11:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gaana.base.Page@39fb3ab6]" name="tearDown" is-config="true" duration-ms="22295" started-at="2016-02-02T11:58:24Z" finished-at="2016-02-02T11:58:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gaana.base.Page -->
+    </test> <!-- Content Test -->
+  </suite> <!-- Smoke Suite -->
+</testng-results>
