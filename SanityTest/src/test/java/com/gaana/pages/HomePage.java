@@ -198,7 +198,8 @@ public NewReleasePage loginUsergotoNewReleases(){
 	public static int featureplaylistcontentCheck(){
 		
 		
-		((JavascriptExecutor) driver).executeScript("scroll(0,250);");
+		//((JavascriptExecutor) driver).executeScript("scroll(0,250);");
+		((JavascriptExecutor) driver).executeScript("window.scrollBy(0,250)","");
 		element=driver.findElement(By.xpath(OR.getProperty("featuredplaylistcontent")));
 		count=element.findElements(By.xpath(OR.getProperty("featuredlist"))).size();
 		return count;
@@ -207,7 +208,8 @@ public NewReleasePage loginUsergotoNewReleases(){
 	public static int radiomirchilistcontentCheck(){
 		
 		
-		((JavascriptExecutor) driver).executeScript("scroll(0,500);");
+		//((JavascriptExecutor) driver).executeScript("scroll(0,250);");
+		((JavascriptExecutor) driver).executeScript("window.scrollBy(0,250)","");
 		element=driver.findElement(By.xpath(OR.getProperty("radiomirchilistcontent")));
 		count=element.findElements(By.xpath(OR.getProperty("radiomirchilist"))).size();
 		return count;
@@ -215,7 +217,8 @@ public NewReleasePage loginUsergotoNewReleases(){
 	
 	public static int gaanaradiolistcontentCheck(){
 		
-		((JavascriptExecutor) driver).executeScript("scroll(0,1000);");		
+		//((JavascriptExecutor) driver).executeScript("scroll(0,250);");
+		((JavascriptExecutor) driver).executeScript("window.scrollBy(0,250)","");		
 		element=driver.findElement(By.xpath(OR.getProperty("gaanaradiolistcontent")));
 		count=element.findElements(By.xpath(OR.getProperty("gaanaradiolist"))).size();
 		return count;

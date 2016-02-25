@@ -11,7 +11,7 @@ public class TestConfig {
 	
 	public static String from = "ashish.bajaj1@timesinternet.in";
 	public static String password = "india@123";
-	public static String[] to ={"ashish.bajaj1@timesinternet.in"};
+	public static String[] to ={"ashish.bajaj1@timesinternet.in","ankur.girdhar@timesinternet.in"};
 	//public static String[] to ={"ashish.bajaj1@timesinternet.in","sk.rahman@timesinternet.in","ankur.girdhar@timesinternet.in","aviraj.roy@timesinternet.in"};
 	public static String subject = "Gaana Web Sanity Automation Results";
 	
