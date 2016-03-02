@@ -157,7 +157,7 @@ public class ContentTest {
 			Thread.sleep(4000);	
 		int a = home.radiomirchilistcontentCheck();
 		//Thread.sleep(3000);
-		Assert.assertEquals(a, 12);
+		Assert.assertEquals(a, 13);
 		//Assert.assertNotEquals(a, 0, 0);
 		reports.log(LogStatus.PASS, "Data is present in Radio Mirchi homepage Section");
 		}catch(AssertionError ae){

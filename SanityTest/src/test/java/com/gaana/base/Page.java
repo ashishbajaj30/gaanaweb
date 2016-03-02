@@ -93,9 +93,13 @@ public class Page {
 			driver.get(Config.getProperty("testsiteurl"));
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			driver.manage().window().maximize();
-			driver.findElement(By.xpath(OR.getProperty("gotit"))).click();
+			//driver.findElement(By.xpath(OR.getProperty("gotit"))).click();
 			//DbManager.setMysqlDbConnection();
-		
+			
+			//New onboarding flow - skipping one billion and language selection pop-up
+			
+			driver.findElement(By.xpath(OR.getProperty("skip_onebillion"))).click();
+			driver.findElement(By.xpath(OR.getProperty("skip_language"))).click();
 		}
 		
 	}
